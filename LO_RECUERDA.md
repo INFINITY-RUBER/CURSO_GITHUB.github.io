@@ -34,21 +34,21 @@ Un sistema que registra los cambios realizados sobre un archivo o conjunto de ar
 `Local Computer` Solo vive en nuestro computador.
 
 <div align="center">
-  <img src="img/local.png">
+  <img src="imagenes/local.png">
   <small><p>Sistema de Control Local</p></small>
 </div>
 
 `Centralizado` No depende únicamente de un computador en el que se trabaja, sino que depende del súper servidor en donde se almacena la información. El servidor provee las copias a sus hijos, pero solo guarda los cambios en un solo lugar.
 
 <div align="center">
-  <img src="img/centralizado.png">
+  <img src="imagenes/centralizado.png">
   <small><p>Sistema de Control Centralizado</p></small>
 </div>
 
 `Sistema de control distribuidos` Cada uno de los que participan en el proyecto, tienen copia del proyecto que se realiza, por eso no dependemos de un solo computador que almacene toda la información.
 
 <div align="center">
-  <img src="img/distribuido.png">
+  <img src="imagenes/distribuido.png">
   <small><p>Sistema de Control Distribuido</p></small>
 </div>
 
@@ -79,12 +79,12 @@ Git fue creado por Linus Torvals
 * Git tiene integridad. No puedes perder información durante su transmisión o sufrir corrupción de archivos sin que Git lo detecte
 
 <div align="center">
-  <img src="img/checkins-over-time-git.png">
+  <img src="imagenes/checkins-over-time-git.png">
   <small><p>Almacenamiento de Archivos en GIT</p></small>
 </div>
 
 <div align="center">
-  <img src="img/checkins-over-time-subversion.png">
+  <img src="imagenes/checkins-over-time-subversion.png">
   <small><p>Almacenamiento de Archivos en Subversion</p></small>
 </div>
 
@@ -99,7 +99,7 @@ Git fue creado por Linus Torvals
 * `Git repository` El repositorio donde almacenaremos los cambios del proyecto
 
 <div align="center">
-  <img src="img/estados-git.png">
+  <img src="imagenes/estados-git.png">
   <small><p>Estados de Git</p></small>
 </div>
 
