@@ -220,7 +220,7 @@ Si se desea eliminar el repositorio, solo hay que eliminar la carpeta oculta .gi
 * **`git stash save “mensaje”`** : Crea un stash con el mensaje especificado.
 * **`git stash list`** :Permite visualizar todos los stash existentes.
 * **`git stash clear`** : Elimina todos los stash existentes.
-* **`git stash drop` ** : Elimina el stash más reciente. El que tiene num_stash=0.
+* **`git stash drop`** : Elimina el stash más reciente. El que tiene num_stash=0.
 * **`git stash drop stash@{num_stash}`** : Elimina un stash específico.
 * **`git stash apply`** : Aplica el stash más reciente. El que tiene num_stash=0.
 * **`git stash apply stash@{num_stash}`** : Aplica los cambios de un stash específico.
