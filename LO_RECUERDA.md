@@ -178,7 +178,8 @@ git config --list
  * `git add -n [archivo]` simula el agregado de un [archivo].
 * `git rm --cached [archivo]` quita un [archivo] del staging al working area.
 * `git rm -f` quita el archivo del staging y del working directory.
-* `git commit -m ["mensaje"]` agrega los archivos del staging al repositorio.
+* `git commit -m ["mensaje"]` agrega el comentario al staging al repositorio.
+* **`git commit -am ["mensaje"]`** agrega los archivos del staging al repositor y agrega comentario.
 * `git commit --amend` anexa el nuevo cambio al anterior commit. Si se escribe un mensaje este sobreescribe el anterior.
 * `git tag -a [tag] -m ["comentario"]` agrega el tag con un comentario al ultimo commit.
 * `git tag -l` lista los tags.
