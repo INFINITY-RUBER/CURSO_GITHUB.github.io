@@ -123,7 +123,7 @@ Configuración del usuario
 
 ```bash
 git config --global user.email user@example.com
-git config --global user.name "Sergio Minei"
+git config --global user.name "Ruber Hernandez"
 ```
 
 Colorear el output del terminal de Git.
