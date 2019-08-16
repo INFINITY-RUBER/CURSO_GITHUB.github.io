@@ -161,6 +161,8 @@ git config --list
 * `vim [nombre]` editar un archivo de texto.
 * `:wq` guaradar y salirdel archivo de texto.
 
+###  Todos los Comandos de terminal
+https://github.com/INFINITY-RUBER/CursosPlatzi/tree/master/Introducci%C3%B3n%20a%20Terminal%20y%20L%C3%ADnea%20de%20Comandos
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
 </div>
