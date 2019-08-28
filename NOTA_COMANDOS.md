@@ -279,25 +279,24 @@ Ya habiendo obtenido el hash lo que hacemos sera volver a crear la rama pero le 
   * `--tags` enviar los tags
 * `git push --all origin` push a todos los branch y tags
 
-# resumen
-Primero: Guardar la URL del repositorio de GitHub
-con el nombre de origin
-`git remote add origin URL`
+# resumen sincronizar github
+**Primero: Guardar la URL del repositorio de GitHub con el nombre de origin**
 
-Segundo: Verificar que la URL se haya guardado
-correctamente:
-`git remote`
-`git remote -v`
+**`git remote add origin URL`**
 
-Tercero: Traer la versión del repositorio remoto y
-hacer merge para crear un commit con los archivos
-de ambas partes. Podemos usar git fetch y git merge
-o solo el git pull con el flag --allow-unrelated-histories:
-`git pull origin master --allow-unrelated-histories`
+**Segundo: Verificar que la URL se haya guardado correctamente:**
 
-Por último, ahora sí podemos hacer git push para guardar
-los cambios de nuestro repositorio local en GitHub:
-`git push origin master`
+**`git remote`**
+
+**`git remote -v`**
+
+**Tercero: Traer la versión del repositorio remoto y hacer merge para crear un commit con los archivos de ambas partes. Podemos usar git fetch y git merge o solo el git pull con el flag --allow-unrelated-histories:**
+
+**`git pull origin master --allow-unrelated-histories`**
+
+**Por último, ahora sí podemos hacer git push para guardar los cambios de nuestro repositorio local en GitHub:**
+
+**`git push origin master`**
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
