@@ -282,7 +282,10 @@ Ya habiendo obtenido el hash lo que hacemos sera volver a crear la rama pero le 
 # resumen sincronizar github
 **Primero: Guardar la URL del repositorio de GitHub con el nombre de origin**
 
-**`git remote add origin URL`**
+**`git remote add origin URL_repo`**
+
+### (cambiar la url de un repocitorio)
+**`git remote set-url origin URL_repo`**
 
 **Segundo: Verificar que la URL se haya guardado correctamente:**
 
