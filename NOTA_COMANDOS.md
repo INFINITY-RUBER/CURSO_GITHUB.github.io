@@ -154,12 +154,12 @@ git config --list
 * `mkdir [nombre]` crear una carpeta.
 * `ls` lista todos los directorios.
   * `-a` muestra los archivos ocultos.
-* `clear` limpia la vetnana.
+* `clear` limpia la ventana.
 * `touch [archivo]` crear un archivo.
 * `rm [ruta]` borra un archivo.
 * `rm -rf [carpeta]` borra una carpeta.
 * `vim [nombre]` editar un archivo de texto.
-* `:wq` guaradar y salirdel archivo de texto.
+* `:wq` guaradar y salir del archivo de texto.
 
 ###  Todos los Comandos de terminal
 https://github.com/INFINITY-RUBER/CursosPlatzi/tree/master/Introducci%C3%B3n%20a%20Terminal%20y%20L%C3%ADnea%20de%20Comandos
