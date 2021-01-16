@@ -280,6 +280,76 @@ Ya habiendo obtenido el hash lo que hacemos sera volver a crear la rama pero le 
 * `git push --all origin` push a todos los branch y tags
 
 # resumen sincronizar github
+
+![github](http://elfreneticoinformatico.com/wp-content/uploads/2017/10/GitHubLogo.png)
+
+![](https://i.ibb.co/sQx6Z5f/1.png)
+
+> # Primero: Guardar la URL del repositorio de GitHub
+> # con el nombre de origin
+
+```
+git remote add origin urldelrepositorioremoto
+```
+
+![](https://i.ibb.co/k8k2byy/2.png)
+
+> # Segundo: Verificar que la URL se haya guardado
+> # correctamente:
+
+```javascript
+git remote
+git remote -v
+```
+
+> **Tercero: Traer la versión del repositorio remoto y  hacer merge para crear un commit con los archivos de ambas partes. Podemos usar git fetch y git merge o solo el git pull con el flag --allow-unrelated-histories:**
+
+```javascript
+git pull origin master --allow-unrelated-histories
+
+```
+
+> **Por último, ahora sí podemos hacer git push para guardar los cambios de nuestro repositorio local en GitHub:**
+
+```javascript
+git push origin master
+```
+
+> **Configura tus llaves SSH en local** Esto nos permite conectar a el remoto por medio de SSH y no HTTPS
+
+```
+Primero se debe ubicar en le home, las llaves ssh se crea por persona no por proyecto.
+Generar tus llaves SSH. Recuerda que es muy buena idea proteger tu llave privada con una contraseña.
+ssh-keygen -t rsa -b 4096 -C "tu@email.com"
+
+
+```
+
+**Encender el "servidor" de llaves SSH de tu computadora:**
+
+```
+eval $(ssh-agent -s)
+```
+
+**Añadir tu llave SSH a este "servidor":**
+
+```
+ssh-add ruta-donde-guardaste-tu-llave-privada
+```
+
+
+
+> ### **Conexión a GitHub con SSH**
+>
+> Luego de crear nuestras llaves SSH podemos entregarle la llave pública a GitHub para comunicarnos de forma segura y sin necesidad de escribir nuestro usuario y contraseña todo el tiempo.
+>
+> Para esto debes entrar a la [Configuración de Llaves SSH en GitHub](https://github.com/settings/keys), crear una nueva llave con el nombre que le quieras dar y el contenido de la llave pública de tu computadora.
+
+![](https://i.ibb.co/CnCqHvq/3.png)
+
+![](https://i.ibb.co/k1Q8YLt/4.png)
+
+
 **Primero: Guardar la URL del repositorio de GitHub con el nombre de origin**
 
 **`git remote add origin URL_repo`**
